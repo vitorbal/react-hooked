@@ -7,13 +7,15 @@
   "author": "Vitor Balocco <vitorbal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cz": "git-cz"
+    "cz": "git-cz",
+    "release": "standard-version"
   },
   "devDependencies": {
     "commitizen": "^3.0.4",
     "cz-conventional-changelog": "2.1.0",
     "prettier": "^1.14.3",
     "react": "^16.7.0-alpha.0",
+    "standard-version": "^4.4.0",
     "zapier-scripts": "^3.3.0"
   },
   "peerDependencies": {
