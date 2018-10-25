@@ -20,3 +20,21 @@ function Counter() {
   );
 }
 ```
+
+## Contributing
+
+We use [`commitizen`](https://github.com/commitizen/cz-cli) and [`standard-version`](https://github.com/conventional-changelog/standard-version) for automating our release and changelog process:
+
+- Commit using `commitizen` to follow the [Conventional Commits Specification](https://conventionalcommits.org/).
+- Release using `standard-version` for automatic versioning and CHANGELOG generation.
+
+```bash
+# add files to be commited
+git add .
+# commit using `commitizen`
+yarn cz
+# bump version and regenerate CHANGELOG based on commit messages
+yarn release
+# publish
+git push --follow-tags origin master && npm publish
+```
