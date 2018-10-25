@@ -1,0 +1,27 @@
+{
+  "name": "react-hooked",
+  "version": "0.1.0",
+  "description": "Useful React custom hooks",
+  "main": "src/index.js",
+  "repository": "https://github.com/vitorbal/react-hooked.git",
+  "author": "Vitor Balocco <vitorbal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cz": "git-cz"
+  },
+  "devDependencies": {
+    "commitizen": "^3.0.4",
+    "cz-conventional-changelog": "2.1.0",
+    "prettier": "^1.14.3",
+    "react": "^16.7.0-alpha.0",
+    "zapier-scripts": "^3.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
